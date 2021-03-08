@@ -18,7 +18,7 @@ function App() {
   //   .then(res => res.json())
   //   .then(data => setArticles(data.articles))
   // }, [])
-
+// calling API using axios 
   useEffect (() =>{
     const url = 'https://newsapi.org/v2/top-headlines?country=us&apiKey=b093438169e44148aa7051053a7a930e';
 
