@@ -1,4 +1,5 @@
 import React from 'react';
+import './News.css'
 
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
@@ -22,7 +23,7 @@ const News = (props) => {
     const classes = useStyles();
     const { title, description, urlToImage } = props.article;
     return (
-        <Card className={classes.root}>
+        <Card className={classes.root} className="news-details">
             <CardActionArea>
                 <CardMedia
                     className={classes.media}

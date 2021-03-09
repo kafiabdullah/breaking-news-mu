@@ -27,8 +27,9 @@ function App() {
   }, [])
 
   return (
-    <div  >
+    <div className="news" >
       <Container>
+        <h1>Breaking News!!!!!</h1>
         <h2>Total News: {articles.length}</h2>
         {
           articles.map(article => <News article={article}></News>)
